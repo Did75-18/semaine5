@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, Arial, helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+.conteneur {
+    width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    margin: 15px;
+}
+.logo{
+    width: 150px;
+    float: left;
+    margin-right: 2em;
+    border:2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #fff;
+}
+h1, header p {
+        color:rgb(246, 246, 246);
+}
+.fond_header {
+    background-image: url(images/diagmonds.png);
+    padding-bottom: 2em;
+}
+main{
+    background-image: url(images/diamond_upholstery.png);
+}
+.flex {
+    display: flex;
+    justify-content:space-between;
+}
+.parcours, .ambition, .experience {
+    width: 30%;
+    padding:10px;
+}
+h2 {
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(95, 95, 95);
+}
+li {
+    font-size: 0.8rem;
+}
+.ambition p {
+    color: rgb(223, 120, 0);
+    font-size: 1.2em;
+    text-align: center;
+}
+.experience li {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+footer .conteneur{
+    background-image: url(images/cheap_diagonal_fabric.png);
+    height: 200px;
+;
+}
+.conteneur iframe{
+    float:left;    
+    margin-right: 30px
+}
+a {
+    color:rgb(223, 120, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(95, 95, 95);
+}
